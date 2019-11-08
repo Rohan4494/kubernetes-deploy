@@ -1,10 +1,9 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: default-http-backend
+  name: nginx-deploygffc
   labels:
     app: default-http-backend
-  namespace: nginx-ingress
 spec:
   replicas: 1
   template:
